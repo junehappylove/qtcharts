@@ -5,21 +5,24 @@ Qt Charts 5.7.0
 Qt Charts module provides a set of easy to use chart components. It uses
 the Qt Graphics View Framework, therefore charts can be easily integrated
 to modern user interfaces.
+Qt图形模块提供一系列方便的用户图形组件。由于使用了Qt图形视图框架，因此她
+可以很容易地集成到现代的用户界面中。
 
-System Requirements
-===================
+System Requirements(系统要求)
+=============================
 
-- Qt 5.4 or newer
-- For QML applications QtQuick 2 is required
-- Manipulating Qt Charts graphs with QML Designer requires Qt Creator 3.3 or newer
+- Qt 5.4 or newer（Qt5.4或者更高）
+- For QML applications QtQuick 2 is required(对于QML应用，至少要高于QtQuick2)
+- Manipulating Qt Charts graphs with QML Designer requires Qt Creator 3.3 or newer（Qt设计界面必须高于QtCreater3.3）
 
-Building
-========
+Building（编译/构建）
+====================
 
-Configure the project with qmake:
+Configure the project with qmake:（使用qmake配置项目）
     qmake
 
 After running qmake, build the project with make:
+执行qmake后，在使用make构建项目：
     (Linux) make
     (Windows with MinGw) mingw32-make
     (Windows with Visual Studio) nmake
